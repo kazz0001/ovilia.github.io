@@ -18,16 +18,16 @@ export default Vue.component('status-time', {
 
             if (this.lang === 'zh') {
                 if (hour > 4 && hour < 12) {
-                    str += '上午';
+                    str += '';
                 }
                 else if (hour >= 12 && hour < 14) {
-                    str += '中午';
+                    str += '';
                 }
                 else if (hour > 14 && hour < 18) {
-                    str += '下午';
+                    str += '';
                 }
                 else {
-                    str += '晚上';
+                    str += '';
                 }
             }
 
